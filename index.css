@@ -70,3 +70,21 @@ font-family: algerian;
 font-size: 20px;
 }
 
+#imageslider {
+
+    background-color: red;
+}
+
+#imageslider img{
+
+    
+
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
