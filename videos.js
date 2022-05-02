@@ -13,3 +13,11 @@ function home() {
 function contact() {
     window.location="contact.html";
 }
+
+function merch() {
+    window.location = "merch.html"
+}
+
+function chat() {
+    window.location = "chat.html"
+}
