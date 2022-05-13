@@ -33,7 +33,7 @@
                 <h1> Hey, Gamers and Coders! Welcome Back to Shadow's Realm!</h1>
                 <div class="line"></div>
                 <p>
-                    Shadow Master Gaming and CodeNextGen are run by the extroadinary Shadow Master, who's real name is for the first and last time is about to be revealed: Raghav Krishnan! Now, let us keep it to Shadow as we continue. Shadow has created multiple videos that are great for entertainment and lessons! He also founded the SM Foundation, which is a built in world problem donate and support organization! You can find this on his new website!
+                    Shadow Master Gaming and CodeNextGen are run by the extroadinary Shadow Master. Now, let us keep it to Shadow as we continue. Shadow has created multiple videos that are great for entertainment and lessons! He also founded the SM Foundation, which is a built-in-world-problem donate and support organization! You can find this on his new website!
                     Now he also makes coding videos for coders who want to get better, or even learn! Real soon, Shadow will be releasing some very exclusive merch along with shopping on his website! Well, that about wraps the welcome back special for you guys! Hope you enjoy! Now stay safe, be kind, and let's game on! Shadow Master, sign'in off.
     
                     (Keep an eye out, I might add to this website!)
@@ -46,9 +46,42 @@
                 <li class="links"onclick="contact()">Contact</li>
                 <li class="links" onclick="chat()"> Chat </li>
                 <li class="links" onclick="merch()">SHADOWGATEWAY</li>  
+                <li class="links" onclick="foundation()">SM Foundation</li>  
             </ul>
                     
-            
+           <!-- The video -->
+<video autoplay muted id="myVideo">
+  <source src="ShadowMasterGamingAvatar.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>SMG Intro!</h1>
+  <p>Watch my Intro and give feedback</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div> 
+<script>
+  // Get the video
+  var video = document.getElementById("myVideo");
+  
+  // Get the button
+  var btn = document.getElementById("myBtn");
+  
+  // Pause and play the video, and change the button text
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+  </script>
     </section>
+     
+      
+   
 </body>
 </html>
